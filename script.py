@@ -42,6 +42,7 @@ for pdf in pdf_list:
 
 txt_folder_list = glob.glob(os.path.join(txt_folder, "*"))
 
+extracted_tables = list()
 
 def open_text_file(text_file):
     with open(text_file, "r") as file:
@@ -82,7 +83,10 @@ for file in txt_folder_list:
     # print("\tData")
     # for line in data:
     #     print("\t" + line)
-    
+
+
+
+    # cleaing columns 
     columns = []
     for line in data:
         if re.match("year", line):
@@ -96,6 +100,10 @@ for file in txt_folder_list:
                     columns.pop(i+1)
                     columns.insert(i, new_col)
                     break
+           
+    columns.pop(0)   
+    columns.insert(0, "end_date") 
+    columns.insert(0, "start_date")          
 
     row_data = []
     
@@ -103,11 +111,19 @@ for file in txt_folder_list:
         row = []
         if re.match(year_pattern, line):
             row = line.split(" ")
+            for i in range(len(row)):
+                if re.match(year_pattern, row[i]):
+                    years = row[i].split("-")
+                    row.pop(i)
+                    row.insert(0, years[1])
+                    row.insert(0, years[0])
+                    break
             row_data.append(row)
 
+    
     df = pd.DataFrame(row_data, columns=columns)
-
     print(df)
+    extracted_tables.append(df)
     
 
 
