@@ -1,231 +1,76 @@
-A/C: Milwaukee Board of School Directors
-R/I: The Travelers Indemnity Company
-
-AUTOMOBILE LIABILITY
-June 5, 2024
-
-From: Christine A. Czarnecki
-
-Telephone: (312) 345-2602
-
-GC RENEWAL:
-CLIENT RENEWAL:
-
-No
-Yes
-
-POLICY PERIOD:
-
-July 1, 2024 To July 1, 2025
-
-REINSURED PERIOD:
-
-July 1, 2024 To July 1, 2025
-
-TYPE OF INSURANCE:
-
-Automobile Liability
-
-PROGRAM TYPE:
-
-Guaranteed Cost
-
-COMPANY POLICY LIMIT(S):
+A/C: Milwaukee Board of School Directors AUTOMOBILE LIABILITY
+R/I: The Travelers Indemnity Company June 5, 2024
+From: Christine A. Czarnecki Telephone: (312) 345-2602
+GC RENEWAL: No
+CLIENT RENEWAL: Yes
+POLICY PERIOD: July 1, 2024 To July 1, 2025
+REINSURED PERIOD: July 1, 2024 To July 1, 2025
+TYPE OF INSURANCE: Automobile Liability
+PROGRAM TYPE: Guaranteed Cost
+COMPANY POLICY LIMIT(S): $ 2,000,000 CSL Each Accident
 -
-
-$
-
-2,000,000 CSL Each Accident
-
 Travelers expiring rate $2,012.06/unit
-
-COMPANY RETENTION
+COMPANY RETENTION A) $1,000,000 CSL Each Accident
 Net &/Or Treaty:
-
-A) $1,000,000 CSL Each Accident
-
-OTHER FACULTATIVE:
-
-Placed Elsewhere by Company
-
+OTHER FACULTATIVE: Placed Elsewhere by Company
 None
-
-REINSURANCE LIMIT(S)
-HEREON:
-
-B) BASIS OF ACCEPTANCE: Excess of Loss
-$1,000,000 CSL Each Accident Excess $1,000,000
+REINSURANCE LIMIT(S) B) BASIS OF ACCEPTANCE: Excess of Loss
+HEREON: $1,000,000 CSL Each Accident Excess $1,000,000
 CSL Each Accident
-
-REINSURANCE PREMIUM:
-
-B) Please quote your best offer
-
-CEDING COMMISSION:
-
-Nil
-
-ORIGINAL CANCELLATION
+REINSURANCE PREMIUM: B) Please quote your best offer
+CEDING COMMISSION: Nil
+ORIGINAL CANCELLATION 90 days
 CLAUSE:
-
-90 days
-
-REINSURANCE CONDITIONS:
-
-Follow Form Company Policy except as stated in
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
 Additional Reinsurance Conditions.
-
 COMPANY POLICY TERMS/EXTENSIONS/EXCLUSIONS:
-
-Follow Form:
-
-As Per Company Policy(ies)
-
-Extensions:
-
-UM/UIM = $2,000,000
-
-LOSS ADJUSTMENT EXPENSE:
-
-Pro Rata
-
-EXPOSURE BASE:
-
-Start Date End Date
-
-Historical: 07/01/2024 07/01/2025
-07/01/2023 07/01/2024
-07/01/2022 07/01/2023
-07/01/2021 07/01/2022
-07/01/2020 07/01/2021
-07/01/2019 07/01/2020
-07/01/2018 07/01/2019
-
-Units
-183
-167
-161
-165
-170
-160
-160
-
-T25108.245031.01
-
-AUTOMOBILE LIABILITY Page 1 of 2
-
-A/C: Milwaukee Board of School Directors
-R/I: The Travelers Indemnity Company
-
-AUTOMOBILE LIABILITY
-June 5, 2024
-
-FLEET:
-
-Projected: Type
-
-Private Passenger
-Vans - Passenger
-Trucks - Light
-Trucks - Light
-Trucks - Heavy
-Trucks - Extra Heavy
-
-TOTAL:
-
-.
-.
-.
-.
-.
-.
-
-Units
-2
-20
-111
-29
-20
-1
-183
-
+Follow Form: As Per Company Policy(ies)
+Extensions: UM/UIM = $2,000,000
+LOSS ADJUSTMENT EXPENSE: Pro Rata
+EXPOSURE BASE: Start Date End Date Units
+Historical: 07/01/2024 07/01/2025 183
+07/01/2023 07/01/2024 167
+07/01/2022 07/01/2023 161
+07/01/2021 07/01/2022 165
+07/01/2020 07/01/2021 170
+07/01/2019 07/01/2020 160
+07/01/2018 07/01/2019 160
+T25108.245031.01 AUTOMOBILE LIABILITY Page 1 of 2A/C: Milwaukee Board of School Directors AUTOMOBILE LIABILITY
+R/I: The Travelers Indemnity Company June 5, 2024
+FLEET: Projected: Type Units
+Private Passenger . 2
+Vans - Passenger . 20
+Trucks - Light . 111
+Trucks - Light . 29
+Trucks - Heavy . 20
+Trucks - Extra Heavy . 1
+TOTAL: 183
 Garaged - WI
-
-LOSSES:
-
-Auto Liab
-Year
-07/01/2023-07/01/2024
-07/01/2022-07/01/2023
-07/01/2021-07/01/2022
-07/01/2020-07/01/2021
-07/01/2019-07/01/2020
-07/01/2018-07/01/2019
-
-Valuation Date: 06/03/2024 Last 6 years
-
-Total
-Incurred
-$36,924
-$118,714
-$135,276
-$1,732
-$29,542
-$217,448
-
-LARGE LOSSES:
-
-Valuation Date: 06/03/2024AExcess $100,000 Last 6 years
-
-DOL
-12/13/2018
-
-Total
-
-Line
-Incurred O/C Type
-
-162,768
-
-C
-
-AL
-
-01/03/2022
-
-105,601
-
-C
-
-AL
-
-08/16/2022
-
-112,426
-
-C
-
-AL
-
-Description
-IV PROCEEDING THROUGH
+LOSSES: Valuation Date: 06/03/2024 Last 6 years
+Auto Liab Total
+Year Incurred
+07/01/2023-07/01/2024 $36,924
+07/01/2022-07/01/2023 $118,714
+07/01/2021-07/01/2022 $135,276
+07/01/2020-07/01/2021 $1,732
+07/01/2019-07/01/2020 $29,542
+07/01/2018-07/01/2019 $217,448
+LARGE LOSSES: Valuation Date: 06/03/2024AExcess $100,000 Last 6 years
+Total Line
+DOL Incurred O/C Type Description
+12/13/2018 162,768 C AL IV PROCEEDING THROUGH
 INTERSECTION WHEN OV RAN
 STOP SIGN AND STRUCK IV
-MR. WOZNIAK WAS DRIVING
+01/03/2022 105,601 C AL MR. WOZNIAK WAS DRIVING
 FOR HIS WORK WITH
 MILWAUKEE PUBLIC SCHOOLS
 AT THE TIME OF THE
 COLLISION (THUS MAKING
 HIM AN INSURED UNDER
 TRAVELERS' POLICY).
-INSURED VEHICLE STOPPED
+08/16/2022 112,426 C AL INSURED VEHICLE STOPPED
 AT A STOP SIGN, LOOKED
 BOTH WAYS, PULLED OUT ON
 THE ROAD, OTHER VEHICLE
 STRUCK INSURED VEHICLE
-
-T25108.245031.01
-
-AUTOMOBILE LIABILITY Page 2 of 2
-
-
+T25108.245031.01 AUTOMOBILE LIABILITY Page 2 of 2

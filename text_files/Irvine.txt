@@ -1,90 +1,34 @@
-A/C: Irvine Company,
-R/I: XL Reinsurance America Inc.
-
-GENERAL LIABILITY
-June 5, 2024
-
-From: Marissa Frederick
-
-Telephone: (913) 200-5460
-
-GC RENEWAL:
-CLIENT RENEWAL:
-
-No
-No
-
-POLICY PERIOD:
-
-October 1, 2024 To October 1, 2025
-
-REINSURED PERIOD:
-
-October 1, 2024 To October 1, 2025
-
-TYPE OF INSURANCE:
-
-Commercial General Liability
-
-PROGRAM TYPE:
-
-COMPANY POLICY LIMIT(S):
+A/C: Irvine Company, GENERAL LIABILITY
+R/I: XL Reinsurance America Inc. June 5, 2024
+From: Marissa Frederick Telephone: (913) 200-5460
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: October 1, 2024 To October 1, 2025
+REINSURED PERIOD: October 1, 2024 To October 1, 2025
+TYPE OF INSURANCE: Commercial General Liability
+PROGRAM TYPE: SIR
+COMPANY POLICY LIMIT(S): $ 4,000,000 Each Occurrence
+- $ 8,000,000 General Aggregate
+- $ 8,000,000 Products/Completed Operations
+- Aggregate
+- Excess of $1,000,000 SIR (Each and Every Occurrence)
 -
--
--
--
--
-
-COMPANY RETENTION
-Net &/Or Treaty:
-
-SIR
-
-$
-$
-$
-
-4,000,000 Each Occurrence
-8,000,000 General Aggregate
-8,000,000 Products/Completed Operations
-
-Aggregate
-
-Excess of $1,000,000 SIR (Each and Every Occurrence)
-
 Application of General Aggregate: Per Location
-
 Expiring 1M with 1M SIR at $750K.
-
-A) $1,000,000 Each Occurrence/$8,000,000 General
-Aggregate/$8,000,000 Products/Completed
+COMPANY RETENTION A) $1,000,000 Each Occurrence/$8,000,000 General
+Net &/Or Treaty: Aggregate/$8,000,000 Products/Completed
 Operations Aggregate Excess of a $1,000,000 SIR
 (Each and Every Occurrence)
-
-OTHER FACULTATIVE:
-
-Placed Elsewhere by Company
-
-REINSURANCE LIMIT(S)
-HEREON:
--
--
--
--
--
--
-
+OTHER FACULTATIVE: Placed Elsewhere by Company
 None
-
-B) BASIS OF ACCEPTANCE: Excess of SIR
-$1,000,000 Each Occurrence/Nil General
-Aggregate/Nil Products/Completed Operations
-Aggregate Excess $1,000,000 Each
-Occurrence/$8,000,000 General
-Aggregate/$8,000,000 Products/Completed
-Operations Aggregate Excess of a $1,000,000 SIR
-(Each and Every Occurrence)
-
+REINSURANCE LIMIT(S) B) BASIS OF ACCEPTANCE: Excess of SIR
+HEREON: $1,000,000 Each Occurrence/Nil General
+- Aggregate/Nil Products/Completed Operations
+- Aggregate Excess $1,000,000 Each
+- Occurrence/$8,000,000 General
+- Aggregate/$8,000,000 Products/Completed
+- Operations Aggregate Excess of a $1,000,000 SIR
+- (Each and Every Occurrence)
 C) BASIS OF ACCEPTANCE: Excess of SIR
 $1,000,000 Each Occurrence/Nil General
 Aggregate/Nil Products/Completed Operations
@@ -93,7 +37,6 @@ Occurrence/$8,000,000 General
 Aggregate/$8,000,000 Products/Completed
 Operations Aggregate Excess of a $1,000,000 SIR
 (Each and Every Occurrence)
-
 D) BASIS OF ACCEPTANCE: Excess of SIR
 $1,000,000 Each Occurrence/Nil General
 Aggregate/Nil Products/Completed Operations
@@ -101,157 +44,70 @@ Aggregate Excess $3,000,000 Each
 Occurrence/$8,000,000 General
 Aggregate/$8,000,000 Products/Completed
 Operations Aggregate Excess of a $1,000,000 SIR
-
-X06001.245019.01
-
-GENERAL LIABILITY Page 1 of 5
-
-A/C: Irvine Company,
-R/I: XL Reinsurance America Inc.
-
-GENERAL LIABILITY
-June 5, 2024
-
-REINSURANCE PREMIUM:
-
-B) Please quote your best offer
-
+X06001.245019.01 GENERAL LIABILITY Page 1 of 5A/C: Irvine Company, GENERAL LIABILITY
+R/I: XL Reinsurance America Inc. June 5, 2024
 REINSURANCE LIMIT(S) (continued)
 (Each and Every Occurrence)
-
-CEDING COMMISSION:
-
-Nil
-
-ORIGINAL CANCELLATION
+REINSURANCE PREMIUM: B) Please quote your best offer
+CEDING COMMISSION: Nil
+ORIGINAL CANCELLATION 90 days
 CLAUSE:
-
-90 days
-
-REINSURANCE CONDITIONS:
-
-Follow Form Company Policy except as stated in
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
 Additional Reinsurance Conditions.
-
-ADDITIONAL REINSURANCE
-CONDITION(S):
-
-As per Cede: "Unique coverages:
-• $100,000,000 general agg (TBD if we will
-
+ADDITIONAL REINSURANCE As per Cede: "Unique coverages:
+CONDITION(S): • $100,000,000 general agg (TBD if we will
 provide but looking into it)
-
 • Contingent construction exposure
 o TIC utilizes OCIP’s for all Apartment & Land
-
-For
-
-Development construction projects.
+Development construction projects. For
 Apartment Development, the OCIP’s are put in
 place based on the number of doors and type of
-project.
-annual OCIP.
+project. For Land Development, there is an
+annual OCIP. For Office and Retail, the
 General Contractor is responsible for
 insurance until a Certificate of Occupancy is
 issued to TIC, then those properties transfer
 over to TIC’s standard insurance program(s).
-
-For Land Development, there is an
-For Office and Retail, the
-
 • Employed lawyers professional
 • Liquor liability
 • Innkeepers legal liability
 • Silent on abuse & molestation
 • Herbicide & pesticide liability"
-
 COMPANY POLICY TERMS/EXTENSIONS/EXCLUSIONS:
-
-Attach:
-
-As per Company Policy(ies)
-
-COMPANY POLICY FORM:
-
-OCCURRENCE FORM
-
-Loss Adjustment Expense:
--
-
-Inside Retention/Outside Policy
-Limits
-
-EXPOSURE BASE:
-
-Start Date End Date
-
-Projected: 10/01/2024 10/01/2025
-Historical: 10/01/2023 10/01/2024
-10/01/2022 10/01/2023
-10/01/2021 10/01/2022
-10/01/2020 10/01/2021
-10/01/2019 10/01/2020
-10/01/2018 10/01/2019
-
-Sqft
-121,812,000
-122,011,000
-121,304,000
-120,917,000
-118,974,000
-116,554,000
-114,458,000
-
-Payroll
-346,134,016
-357,232,265
-350,400,615
-306,341,702
-286,587,981
-326,447,138
-358,816,649
-
+Attach: As per Company Policy(ies)
+COMPANY POLICY FORM: OCCURRENCE FORM
+Loss Adjustment Expense: Inside Retention/Outside Policy
+- Limits
+EXPOSURE BASE: Start Date End Date Sqft Payroll
+Projected: 10/01/2024 10/01/2025 121,812,000 346,134,016
+Historical: 10/01/2023 10/01/2024 122,011,000 357,232,265
+10/01/2022 10/01/2023 121,304,000 350,400,615
+10/01/2021 10/01/2022 120,917,000 306,341,702
+10/01/2020 10/01/2021 118,974,000 286,587,981
+10/01/2019 10/01/2020 116,554,000 326,447,138
+10/01/2018 10/01/2019 114,458,000 358,816,649
 126 apartment communities - number of doors
 listed in the documents.
-
-Properties have pools.
+Properties have pools. Pools are fenced in and
 monitored by cameras with AL technology to detect
 movement/lights after hours, lighting systems.
-
-Pools are fenced in and
-
 There are gyms/workout centers at some of the apt
 complexes as well.
-
-X06001.245019.01
-
-GENERAL LIABILITY Page 2 of 5
-
-A/C: Irvine Company,
-R/I: XL Reinsurance America Inc.
-
-GENERAL LIABILITY
-June 5, 2024
-
+X06001.245019.01 GENERAL LIABILITY Page 2 of 5A/C: Irvine Company, GENERAL LIABILITY
+R/I: XL Reinsurance America Inc. June 5, 2024
 EXPOSURES: (continued)
-
 Golf Course - Golf Carts on the course would not
 be licensed for road use so covered under GL. 1
 golf course (but will confirm this one is not
-being managed by Marriott also).
+being managed by Marriott also). Alcohol is
 served.
-
-Alcohol is
-
 Resorts: There is a SPA at Pelican Hill but the
 resort is now managed as a Marriott property.
 They do own the CRC marinas in Newport Beach.
-
 Retail Centers: They have a security ops center
 than is monitored 24/7 by 6 analysts. All of
 their security is contracted our to Allied
 Universal.
-
 Contract requires 6m GL limits (but suspect they
 carry much more) including AL, PNC and WOS
 language. No armed guards. There are cameras in
@@ -264,17 +120,14 @@ any major/big-time events but on their website
 they do show smaller events that happen at the
 malls
 A
-
 --------------------------------------------------
 --------------------------------------------------
 Contingent construction exposure:
-
 TIC utilizes OCIP’s for all Apartment & Land
-For Apartment
-Development construction projects.
+Development construction projects. For Apartment
 Development, the OCIP’s are put in place based on
-the number of doors and type of project.
-Land Development, there is an annual OCIP.
+the number of doors and type of project. For
+Land Development, there is an annual OCIP. For
 Office and Retail, the General Contractor is
 responsible for insurance until a Certificate of
 Occupancy is issued to TIC, then those properties
@@ -285,334 +138,106 @@ program(s).
 •Innkeepers legal liability
 •Silent on abuse & molestation
 •Herbicide & pesticide liability
-
-For
-
-For
-
-X06001.245019.01
-
-GENERAL LIABILITY Page 3 of 5
-
-A/C: Irvine Company,
-R/I: XL Reinsurance America Inc.
-
-GENERAL LIABILITY
-June 5, 2024
-
-LOSSES:
-
-Gen'l Liab
-Year
-10/01/2023-10/01/2024
-10/01/2022-10/01/2023
-10/01/2021-10/01/2022
-10/01/2020-10/01/2021
-10/01/2019-10/01/2020
-10/01/2018-10/01/2019
-10/01/2017-10/01/2018
-10/01/2016-10/01/2017
-10/01/2015-10/01/2016
-10/01/2014-10/01/2015
-
-Valuation Date: 03/31/2024 Last 10 years
-dum
-Paid
-$182,783
-$993,415
-$4,149,795
-$1,152,117
-$2,329,277
-$2,824,902
-$5,063,438
-$4,249,341
-$2,697,917
-$8,626,833
-
-Total
-Incurred
-$630,261
-$3,223,985
-$11,178,216
-$1,465,849
-$2,625,553
-$2,920,748
-$5,063,438
-$4,249,341
-$2,697,917
-$8,626,833
-
-dum
-# Claims
-373
-943
-708
-183
-180
-214
-209
-306
-276
-117
-
-LARGE LOSSES:
-
-Valuation Date: 03/31/2024AExcess $500,000 Last 10 years
-
-DOL
-
-9/6/2015
-
-Total
-
-Incurred O/C
-
-5,930,827
-
-C
-
-Paid
-5,930,827
-
-Line
-Type
-GL
-
-3/4/2022
-
-4,311,410
-
-O
-
-1,200,000
-
-GL
-
-12/27/2017
-
-2,695,148
-
-C
-
-2,695,148
-
-GL
-
-6/12/2022
-
-2,283,098
-
-O
-
-111,795
-
-GL
-
-8/16/2022
-
-1,004,685
-
-C
-
-1,004,685
-
-GL
-
-4/18/2015
-
-756,152
-
-C
-
-756,152
-
-GL
-
-Description
-First notice in blind
+X06001.245019.01 GENERAL LIABILITY Page 3 of 5A/C: Irvine Company, GENERAL LIABILITY
+R/I: XL Reinsurance America Inc. June 5, 2024
+LOSSES: Valuation Date: 03/31/2024 Last 10 years
+Gen'l Liab dum Total dum
+Year # Claims Incurred Paid
+10/01/2023-10/01/2024 373 $630,261 $182,783
+10/01/2022-10/01/2023 943 $3,223,985 $993,415
+10/01/2021-10/01/2022 708 $11,178,216 $4,149,795
+10/01/2020-10/01/2021 183 $1,465,849 $1,152,117
+10/01/2019-10/01/2020 180 $2,625,553 $2,329,277
+10/01/2018-10/01/2019 214 $2,920,748 $2,824,902
+10/01/2017-10/01/2018 209 $5,063,438 $5,063,438
+10/01/2016-10/01/2017 306 $4,249,341 $4,249,341
+10/01/2015-10/01/2016 276 $2,697,917 $2,697,917
+10/01/2014-10/01/2015 117 $8,626,833 $8,626,833
+LARGE LOSSES: Valuation Date: 03/31/2024AExcess $500,000 Last 10 years
+Total Line
+DOL Incurred O/C Paid Type Description
+9/6/2015 5,930,827 C 5,930,827 GL First notice in blind
 lawsuit: Ms Shepard
 allegedly suffered a
 broken neck when she dove
 into the Oaks swimming
-
 pool on 9/6/15.
-After entering the
+3/4/2022 4,311,410 O 1,200,000 GL After entering the
 property a Black Tesla
-failed
-to stop and
+failed to stop and
 struck a pedestrian
-On December 27, 2017 at
+12/27/2017 2,695,148 C 2,695,148 GL On December 27, 2017 at
 approximately 10:23 a.m.,
-
 five-year-old Ella
-
-later passed
-
-of a third floor
-
-estranged husband.
-
 Elsayed fell out of the
-window
+window of a third floor
 apartment at Dartmouth
-Court
-Apartment
+Court Apartment
 Community, Unit #1484, in
-Irvine and
+Irvine and later passed
 away from her injuries.
-Erica Pantoja (ICAC
+6/12/2022 2,283,098 O 111,795 GL Erica Pantoja (ICAC
 Employee) Porter at Cadiz
-was
-involved in an
+was involved in an
 isolated, domestic dispute
-with
+with estranged husband.
 This was a double
 homicide/suicide. An AUS
-Security Professional
-was
+Security Professional was
 also deceased at the scene
 of the dispute.
-An Amazon truck hit and
+8/16/2022 1,004,685 C 1,004,685 GL An Amazon truck hit and
 killed a 23 month old
 minor residing in apt 329
 that was in the parking
 lot unattended by an
 adult.
-Resident reported at
+4/18/2015 756,152 C 756,152 GL Resident reported at
 approximatly 8:30pm she
-exiting Jazzucci
-was
+was exiting Jazzucci
 when she missed first
-step and
-hit back of
+step and hit back of
 head. Resident is claming
-lights were
+lights were not on and
 did not see step when
-
-not on and
-
-X06001.245019.01
-
-GENERAL LIABILITY Page 4 of 5
-
-A/C: Irvine Company,
-R/I: XL Reinsurance America Inc.
-
-GENERAL LIABILITY
-June 5, 2024
-
+X06001.245019.01 GENERAL LIABILITY Page 4 of 5A/C: Irvine Company, GENERAL LIABILITY
+R/I: XL Reinsurance America Inc. June 5, 2024
 LARGE LOSSES (continued)
-
-DOL
-
-Total
-
-Incurred O/C
-
-Paid
-
-Line
-Type
-
-4/5/2017
-
-587,809
-
-C
-
-587,809
-
-GL
-
-2/20/2023
-
-572,000
-
-O
-
-21,617
-
-GL
-
-1/21/2022
-
-565,000
-
-O
-
-159,629
-
-GL
-
-10/28/2022
-
-500,000
-
-O
-
-83,072
-
-GL
-
-claims she
-
-Description
-exiting. She
+Total Line
+DOL Incurred O/C Paid Type Description
+exiting. She claims she
 was knocked out for 2
 mins.
-Claimant fell through a
+4/5/2017 587,809 C 587,809 GL Claimant fell through a
 utility vault located
 along Barranca Parkway
 near the entrance.
 Claimant sustained a
 right ankle injury which
-required surgery.
-is 1.2M.
+required surgery. Demand
+is 1.2M. Tendered to RGS
 tree contractor and are
-exploring potential
+exploring potential risk
 transfer to Cox.
-Guest allegedly fell at
+2/20/2023 572,000 O 21,617 GL Guest allegedly fell at
 the Giant Wheel when,
 while attempting to enter
 the gondola, her foot
 fell through the gap and
 she fell backward.
-Illness/Injury - Guest:
+1/21/2022 565,000 O 159,629 GL Illness/Injury - Guest:
 alleged injuries due to a
 collision between 2 golf
-
-Tendered to
-
-Demand
-
-risk
-
-RGS
-
-South course
-
-and
-
-guests in a golf cart
+guests in a golf cart and
 a beverage cart on the golf
-cart path near
+cart path near South course
 6th hole.
-A small child was riding
+10/28/2022 500,000 O 83,072 GL A small child was riding
 their scooter on the
 sidewalk, in front of the
-property entrance,
-going
+property entrance, going
 south on Creek Rd. A dark
-color Honda
+color Honda Odyssey was
 exiting the community and
-struck the
-
-Odyssey was
-
-child.
-
-X06001.245019.01
-
-GENERAL LIABILITY Page 5 of 5
-
-
+struck the child.
+X06001.245019.01 GENERAL LIABILITY Page 5 of 5

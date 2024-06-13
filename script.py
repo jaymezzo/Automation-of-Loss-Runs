@@ -14,12 +14,27 @@ txt_folder = "text_files/"
 # creates a list of pdf files from the folder
 pdf_list = glob.glob(os.path.join(pdf_folder, "*"))
 
-# for each pdf, extract text and put into corresponding txt file
+# # for each pdf, extract text and put into corresponding txt file
+# for pdf in pdf_list:
+#     pdf_text = extract_text(pdf)
+#     text_file_name = pdf.split("\\")[1].split(" ")[0].strip("_")
+#     with open(txt_folder + text_file_name + ".txt", "w") as file:
+#         file.write(pdf_text)
+
+
+# pdfplumber 
+import pdfplumber
 for pdf in pdf_list:
-    pdf_text = extract_text(pdf)
     text_file_name = pdf.split("\\")[1].split(" ")[0].strip("_")
-    with open(txt_folder + text_file_name + ".txt", "w") as file:
-        file.write(pdf_text)
+    with pdfplumber.open(pdf) as pdf:
+        # Extract the text from all pages
+        pdf_text = ""
+        for page in pdf.pages:
+            pdf_text += page.extract_text()
+        with open(txt_folder + text_file_name + ".txt", "w") as file:
+            file.write(pdf_text)
+
+
 
 # =============
 # extract table
@@ -43,43 +58,56 @@ for file in txt_folder_list:
     end_index = "\n\n"
     index_year = -1
     index_claims = -1
+    start_index = -1
 
-    # patterns
     year_pattern = "\d{2}/\d{2}/\d{4}-\d{2}/\d{2}/\d{4}"
-    claims_patterns = "^-?\d+$"
+        
     for index, item in enumerate(text_list, start=1):
-        if item == "year":
-            if re.match(year_pattern, text_list[index + 1]):
-                index_year = index
-        if item == "# claims":
-            index_claims = index
-        if "number" in item:
-            if re.match(claims_patterns, text_list[index + 1]):
-                index_claims = index
-
-    year = text_list[index_year:]
-    claims = text_list[index_claims:]
-
-    year_list = []
-    claims_list = []
-    # year list
-    for line in year:
-        if re.match(year_pattern, line):
-            year_list.append(line)
-        if line == "":
+        #get index
+        if re.match(year_pattern, item):
+            start_index = index
             break
-    # claims list
-    for line in claims:
-        if re.match(claims_patterns, line):
-            claims_list.append(line)
-        if line == "":
+        
+    data_temp = text_list[start_index-1:]
+    data = []
+    for line in data_temp:
+        if not re.match(year_pattern, line):
             break
+        else:
+            data.append(line)
+
+    data.insert(0, text_list[start_index-2])
 
     print("\n\n" + name + "\n")
-    print("\tYear Range")
-    for year in year_list:
-        print("\t" + year)
+    # print("\tData")
+    # for line in data:
+    #     print("\t" + line)
+    
+    columns = []
+    for line in data:
+        if re.match("year", line):
+            # creating columns from line
+            columns = line.split(" ")
+            # fixing claims column
+            for i in range(len(columns)-1):
+                if columns[i] == "#":
+                    new_col = columns[i] + " " + columns[i+1]
+                    columns.pop(i)
+                    columns.pop(i+1)
+                    columns.insert(i, new_col)
+                    break
 
-    print("\n\t# of Claims")
-    for claims in claims_list:
-        print("\t" + claims)
+    row_data = []
+    
+    for line in data:
+        row = []
+        if re.match(year_pattern, line):
+            row = line.split(" ")
+            row_data.append(row)
+
+    df = pd.DataFrame(row_data, columns=columns)
+
+    print(df)
+    
+
+

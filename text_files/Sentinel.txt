@@ -1,259 +1,100 @@
-A/C: Sentinel Safety & Security,
-R/I: The Travelers Indemnity Company
-
-UMBRELLA LIABILITY
-June 4, 2024
-
-From: Brian Kohout
-
-Telephone: (630) 209-7195
-
-GC RENEWAL:
-CLIENT RENEWAL:
-
-No
-No
-
-POLICY PERIOD:
-
-July 1, 2024 To July 1, 2025
-
-REINSURED PERIOD:
-
-July 1, 2024 To July 1, 2025
-
-TYPE OF INSURANCE:
+A/C: Sentinel Safety & Security, UMBRELLA LIABILITY
+R/I: The Travelers Indemnity Company June 4, 2024
+From: Brian Kohout Telephone: (630) 209-7195
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: July 1, 2024 To July 1, 2025
+REINSURED PERIOD: July 1, 2024 To July 1, 2025
+TYPE OF INSURANCE: Umbrella Liability - Reinsurance Coverage Limited
+- to Automobile Liability
+COMPANY POLICY LIMIT(S): $5,000,000 Each Occurrence / Annual Aggregate. Where
+- Applicable Excess of Underlying Insurance and/or other
+- Deductible
 -
-
-Umbrella Liability - Reinsurance Coverage Limited
-to Automobile Liability
-
-COMPANY POLICY LIMIT(S):
--
--
--
-
-COMPANY RETENTION
-Net &/Or Treaty:
-
--
--
-
-$5,000,000 Each Occurrence / Annual Aggregate. Where
-Applicable Excess of Underlying Insurance and/or other
-Deductible
-
 As per Cede: "We are putting up the lead 5M for
 around 250-300k. "
-
-A) $100,000 Each Occurrence (Being 10.0000%) Part of
-$1,000,000 Each Occurrence Excess Underlying
+COMPANY RETENTION A) $100,000 Each Occurrence (Being 10.0000%) Part of
+Net &/Or Treaty: $1,000,000 Each Occurrence Excess Underlying
 Insurance and/or other Deductible as respects to
-Excess Automobile Liability
-
+- Excess Automobile Liability
+-
 B) $4,000,000 Each Occurrence (being 100%) part of
 $4,000,000 Each Occurrence Excess $1,000,000 Each
 Occurrence Excess Underlying Insurance and/or
 other Deductible as respects to Excess Automobile
 Liability
-
 And,
 $5,000,000 Each Occurrence / Annual Aggregate.
-Where Applicable
+Where Applicable Excess of Underlying Insurance
 and/or other Deductible
 All Coverages other than Automobile Liability -
 Difference in Conditions
-
-Excess of Underlying Insurance
-
-OTHER FACULTATIVE:
-
-Placed Elsewhere by Company
-
-REINSURANCE LIMIT(S)
-HEREON:
-
+OTHER FACULTATIVE: Placed Elsewhere by Company
 None
-
-A) BASIS OF ACCEPTANCE: Contributing Excess
-$900,000 Each Occurrence (Being 90.0000%) Part of
+REINSURANCE LIMIT(S) A) BASIS OF ACCEPTANCE: Contributing Excess
+HEREON: $900,000 Each Occurrence (Being 90.0000%) Part of
 $1,000,000 Each Occurrence Excess Underlying
 Insurance and/or other Deductible as respects to
 Excess Automobile Liability
-
-REINSURANCE PREMIUM:
-
-A) Please quote your best offer
-
-CEDING COMMISSION:
-
-ORIGINAL CANCELLATION
+REINSURANCE PREMIUM: A) Please quote your best offer
+CEDING COMMISSION: 25.00%
+ORIGINAL CANCELLATION 90 days
 CLAUSE:
-
-REINSURANCE CONDITIONS:
-
-25.00%
-
-90 days
-
-Follow Form Company Policy except as stated in
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
 Additional Reinsurance Conditions.
-
-T25108.245029.01
-
-UMBRELLA LIABILITY Page 1 of 3
-
-A/C: Sentinel Safety & Security,
-R/I: The Travelers Indemnity Company
-
-UMBRELLA LIABILITY
-June 4, 2024
-
-ADDITIONAL REINSURANCE
-CONDITION(S):
--
--
--
-
-In Consideration of the premium charged, it is
-agreed that such reinsurance as is afforded by
-this Certificate shall apply only to Automobile
-Liability as granted by the Ceding Company's
-Umbrella Liability Policy
-
+T25108.245029.01 UMBRELLA LIABILITY Page 1 of 3A/C: Sentinel Safety & Security, UMBRELLA LIABILITY
+R/I: The Travelers Indemnity Company June 4, 2024
+ADDITIONAL REINSURANCE In Consideration of the premium charged, it is
+CONDITION(S): agreed that such reinsurance as is afforded by
+- this Certificate shall apply only to Automobile
+- Liability as granted by the Ceding Company's
+- Umbrella Liability Policy
 It is further agreed that Non-Automobile Bodily
 Injury and Property Damage Claims or Losses
 otherwise recoverable under the Ceding Company's
 Umbrella Liability Policy shall not impair the
 Ceding Company's Limit or Retention
-
 COMPANY POLICY TERMS/EXTENSIONS/EXCLUSIONS:
-
-Attach:
-
-As per Company Policy(ies)
-
-COMPANY POLICY FORM:
-
-OCCURRENCE FORM
-
+Attach: As per Company Policy(ies)
+COMPANY POLICY FORM: OCCURRENCE FORM
 Loss Adjustment Expense: Outside
-
-EXPOSURE BASE:
-
-Projected: 07/01/2024 07/01/2025
-
-Start Date End Date
-
-Units
-147
-
-FLEET:
-
-UNDERLYING SCHEDULE:
-
-Coverage
-CAL
-
-Limit
-$1M CSL
-
-Type
-Private Passenger
-Trucks - Light
-Trucks - Medium
-Trucks - Heavy
-
-.
-.
-.
-.
-
-Units
-1
-134
-11
-1
-147
-
-TOTAL:
-
+EXPOSURE BASE: Start Date End Date Units
+Projected: 07/01/2024 07/01/2025 147
+FLEET: Type Units
+Private Passenger . 1
+Trucks - Light . 134
+Trucks - Medium . 11
+Trucks - Heavy . 1
+TOTAL: 147
 HNO – incidental exposure, maybe 10 employees
-
 90% of trips are 0-50 miles. Nothing over 200
 miles.
-
 Auto Controls:
-
 Formal driver and fleet safety program is in
 place. They have a new program for MVRs that was
-reviewed by their attorney.
+reviewed by their attorney. They use PARs and
 non WI they use SIMS (a new MVR pull system).
 Preplacement drug testing is performed for driver
 selection and hiring process as well as medical
 examinations.
-
-They use PARs and
-
 No frequent drivers under 21 and employee
 turnover is low.
-
 Radius is 20% less than 50 miles. 60% 51-200 and
 20% 201-400 miles.
-
-Company
-Travelers
-
-Policy Term
-07/01/2024-2025
-
-T25108.245029.01
-
-UMBRELLA LIABILITY Page 2 of 3
-
-A/C: Sentinel Safety & Security,
-R/I: The Travelers Indemnity Company
-
-UMBRELLA LIABILITY
-June 4, 2024
-
-LOSSES:
-
-YEAR
-07/01/2023-07/01/2024
-07/01/2022-07/01/2023
-07/01/2021-07/01/2022
-07/01/2020-07/01/2021
-07/01/2019-07/01/2020
-07/01/2018-07/01/2019
-
-Valuation Date: 05/29/2024 Last 6 years
-
+UNDERLYING SCHEDULE:
+Coverage Limit Company Policy Term
+CAL $1M CSL Travelers 07/01/2024-2025
+T25108.245029.01 UMBRELLA LIABILITY Page 2 of 3A/C: Sentinel Safety & Security, UMBRELLA LIABILITY
+R/I: The Travelers Indemnity Company June 4, 2024
+LOSSES: Valuation Date: 05/29/2024 Last 6 years
 Auto Liab
-
 TOTAL
-
-INCURRED NUMBER
-4
-11
-6
-6
-1
-6
-
-$76,797
-$28,226
-$18,734
-$27,269
-$5,388
-$46,522
-
-LARGE LOSSES:
-
-Valuation Date: 05/29/2024A None excess of $100,000 Last 6 years
-
-T25108.245029.01
-
-UMBRELLA LIABILITY Page 3 of 3
-
-
+YEAR INCURRED NUMBER
+07/01/2023-07/01/2024 $76,797 4
+07/01/2022-07/01/2023 $28,226 11
+07/01/2021-07/01/2022 $18,734 6
+07/01/2020-07/01/2021 $27,269 6
+07/01/2019-07/01/2020 $5,388 1
+07/01/2018-07/01/2019 $46,522 6
+LARGE LOSSES: Valuation Date: 05/29/2024A None excess of $100,000 Last 6 years
+T25108.245029.01 UMBRELLA LIABILITY Page 3 of 3
