@@ -3,6 +3,8 @@ from pdfminer.high_level import extract_text
 import glob
 import os
 import re
+import openpyxl
+from openpyxl.utils.dataframe import dataframe_to_rows
 
 
 # =====================
@@ -79,7 +81,7 @@ for file in txt_folder_list:
 
     data.insert(0, text_list[start_index-2])
 
-    print("\n\n" + name + "\n")
+    # print("\n\n" + name + "\n")
     # print("\tData")
     # for line in data:
     #     print("\t" + line)
@@ -97,7 +99,7 @@ for file in txt_folder_list:
                 if columns[i] == "#":
                     new_col = columns[i] + " " + columns[i+1]
                     columns.pop(i)
-                    columns.pop(i+1)
+                    columns.pop(i)
                     columns.insert(i, new_col)
                     break
            
@@ -122,8 +124,24 @@ for file in txt_folder_list:
 
     
     df = pd.DataFrame(row_data, columns=columns)
-    print(df)
+    # print(df)
     extracted_tables.append(df)
-    
+
+
+
+# Load the existing Excel file
+wb = openpyxl.load_workbook(filename="Copy of Loss Rater.xlsm")
+ws = wb.active 
+
+print("Active Cell: ", ws.active_cell)
+
+current_df = extracted_tables[0]
+
+start_date_df = current_df["start_date"]
+target_cell = "C3"
+
+for index, row in start_date_df.iterrows():
+    ws[target_cell].value = row
+    target_cell = ws.cell(row=ws[target_cell].row + 1, column=ws[target_cell].column).coordinate
 
 
