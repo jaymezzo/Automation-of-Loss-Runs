@@ -10,6 +10,12 @@ from mutliclass import convert_to_df_multiclass, multiclass_count
 # =====================
 # extract text from pdf
 # =====================
+"""
+input: pdf
+output: text extracted from pdf
+"""
+
+
 def extract_text_from_pdf(pdf):
     pdf_folder = "submission_pdfs/"
     txt_folder = "text_files/"
@@ -25,6 +31,17 @@ def extract_text_from_pdf(pdf):
 # =============
 # extract table
 # =============
+"""
+takes text and outputs the tables into dataframes 
+    # of columns in df is dependent on the information in the submission
+    ex. if submission contains "paid" column so will the df
+        if submission does not contain "paid" the df will not have a "paid" column
+        the number of columns will vary based on submission
+input: text
+output: df containing tables
+"""
+
+
 def extract_table_from_text(pdf_text):
     lower_text = pdf_text.lower()
     text_list = lower_text.split("\n")
@@ -90,6 +107,14 @@ def extract_table_from_text(pdf_text):
 # ==================
 # import df to excel
 # ==================
+
+"""
+copies the Loss Rater template into a new file saved as the given filename
+imports data from df into new Loss Rater and saves the file
+takes a dataframe
+input: df, name of file 
+output: None
+"""
 
 
 def import_to_excel(df, file_name):
