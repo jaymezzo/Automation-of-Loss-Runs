@@ -11,7 +11,7 @@ root.title("Ascot Automated Loss Runs Entry")
 # TODO: adapt working directory to general case
 
 # TODO: put icon command in the right place
-root.iconbitmap('./images/ascot.ico')
+root.iconbitmap('front_end/images/ascot.ico')
 root.geometry('500x350')
 
 # Welcome message
@@ -28,6 +28,11 @@ instructions_label.pack(pady = (10, 10), padx = 30)
 # Entry Widget for file path
 file_path_entry = tb.Entry(root, font=("Helvetica", 16), bootstyle="primary")
 file_path_entry.pack(pady=10, padx=50)
+
+# Button to submit the file path
+def submit_action():
+    file_path = file_path_entry.get()  # This gets the text from the entry widget
+    print("File Path Entered:", file_path)  # You can replace this with any action you need to perform with the file path
 
 # Submit button
 submit_button = tb.Button(root, text="Submit", bootstyle="success", command=submit_action)
