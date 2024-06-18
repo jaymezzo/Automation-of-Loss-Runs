@@ -415,5 +415,5 @@ def convert_to_df_multiclass(pdf, file_name):
     matches = match_start(losses)
     df = ExportDf(losses, matches)
     print(df)
-    df_list = transform_df(df, file_name)
-    return df_list
+    df_list, fn_list = transform_df(df, file_name)
+    return df_list, fn_list
