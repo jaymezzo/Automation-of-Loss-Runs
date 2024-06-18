@@ -47,7 +47,7 @@ def extract_table_from_text(pdf_text):
     text_list = lower_text.split("\n")
 
     start_index = -1
-
+    
     year_pattern = "\d{2}/\d{2}/\d{4}-\d{2}/\d{2}/\d{4}"
 
     for index, item in enumerate(text_list, start=1):
@@ -119,7 +119,7 @@ output: None
 
 def import_to_excel(df, file_name):
     # Load the original Loss Rater template
-    original_file = "Loss Rater.xlsx"
+    original_file = "Loss Experience Template.xlsx"
     print("Loading origianl workbook...")
     origianl_workbook = load_workbook(filename=original_file)
     print("Workbook successfully loaded.\n")
@@ -127,18 +127,19 @@ def import_to_excel(df, file_name):
     # Save the workbook as a new rater and close orginal
     print("Copying file...")
     origianl_workbook.save(filename=file_name + ".xlsx")
-    print(f"File copied as {file_name}.\n")
+    print(f"File copied as {file_name}.xlsx.\n")
     origianl_workbook.close()
 
     # Loading Copy of the Loss Rater
     print("Loading copied filed...")
     wb = load_workbook(filename=file_name + ".xlsx")
     print("Copied file loaded.\n")
-    ws = wb["GL_LossExperience_Input"]
+    ws = wb["Sheet1"]
 
     # target cells
     START_DATE_TARGET = "C9"
     END_DATE_TARGET = "D9"
+    
     INCURRED_LOSSES_TARGET = "G9"
     PAID_LOSSES_TARGET = "I9"
     CLAIMS_COUNT_TARGET = "K9"
@@ -188,7 +189,7 @@ pdf = (
     "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
 )
 pdf_text = extract_text_from_pdf(pdf)
-file_name = pdf.split("/")[-1].split(" ")[0].strip("_")
+file_name = pdf.split("/")[-1].split(" ")[0].strip("_") + " - Loss"
 num_classes, _ = multiclass_count(pdf_text)
 IS_MULTICLASS = num_classes > 1
 
