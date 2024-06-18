@@ -47,14 +47,24 @@ def extract_table_from_text(pdf_text):
     text_list = lower_text.split("\n")
 
     start_index = -1
-    
-    year_pattern = "\d{2}/\d{2}/\d{4}-\d{2}/\d{2}/\d{4}"
+    val_index = -1
 
+    val_date = ""
+
+    year_pattern = "\d{2}/\d{2}/\d{4}-\d{2}/\d{2}/\d{4}"
+    eval_year_pattern = "\d{2}/\d{2}/\d{4}"
     for index, item in enumerate(text_list, start=1):
         # get index
+        if re.match("Valuation Date:", item):
+            val_index = index
         if re.match(year_pattern, item):
             start_index = index
             break
+    
+    # Gets the evaluation year
+    for item in text_list[val_index - 1].split(" "):
+        if re.match(eval_year_pattern, item):
+            val_date = item
 
     data_temp = text_list[start_index - 1 :]
     data = []
@@ -97,10 +107,14 @@ def extract_table_from_text(pdf_text):
                     row.pop(i)
                     row.insert(0, years[1])
                     row.insert(0, years[0])
+                    row.insert(2, val_date)
                     break
             row_data.append(row)
 
+    columns.insert(2, "eval_date")
+        
     df = pd.DataFrame(row_data, columns=columns)
+    print(df)
     return df
 
 
@@ -139,7 +153,7 @@ def import_to_excel(df, file_name):
     # target cells
     START_DATE_TARGET = "C9"
     END_DATE_TARGET = "D9"
-    
+    EVAL_DATE_TARGET = "E9"
     INCURRED_LOSSES_TARGET = "G9"
     PAID_LOSSES_TARGET = "I9"
     CLAIMS_COUNT_TARGET = "K9"
@@ -155,6 +169,11 @@ def import_to_excel(df, file_name):
         ws[END_DATE_TARGET].value = df["end_date"][i]
         END_DATE_TARGET = ws.cell(
             row=ws[END_DATE_TARGET].row + 1, column=ws[END_DATE_TARGET].column
+        ).coordinate
+
+        ws[EVAL_DATE_TARGET].value = df["eval_date"][i]
+        EVAL_DATE_TARGET = ws.cell(
+            row=ws[EVAL_DATE_TARGET].row + 1, column=ws[EVAL_DATE_TARGET].column
         ).coordinate
 
         ws[CLAIMS_COUNT_TARGET].value = (
@@ -186,7 +205,7 @@ def import_to_excel(df, file_name):
 
 
 pdf = (
-    "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
+    "submission_pdfs/Olympic Steel_ Inc__Submission_AL_2024-04-03_211242_95.pdf"
 )
 pdf_text = extract_text_from_pdf(pdf)
 file_name = pdf.split("/")[-1].split(" ")[0].strip("_") + " - Loss"
