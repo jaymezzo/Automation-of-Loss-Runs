@@ -1,0 +1,101 @@
+A/C: Florida Lemark Corporation UMBRELLA LIABILITY
+R/I: HDI Global Insurance Company April 16, 2024
+From: Brian Kohout Telephone: (630) 209-7195
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: May 25, 2024 To May 25, 2025
+REINSURED PERIOD: May 25, 2024 To May 25, 2025
+TYPE OF INSURANCE: Excess Liability
+COMPANY POLICY LIMIT(S): $5,000,000 Each Occurrence / $5,000,000 Aggregate Excess of
+- Any/All Underlying Insurance and/or Self-Insured Retention
+- (SIR)
+TOTAL POLICY PREMIUM: $225,000 Gross
+COMPANY RETENTION $2,500,000 Each Occurrence/$2,500,000 Aggregate
+Net &/Or Treaty: (Being 50.0000%) Part of $5,000,000 Each
+Occurrence/$5,000,000 Aggregate Excess Any/All
+Underlying Insurance and/or Self-Insured
+Retention (SIR)
+OTHER FACULTATIVE: Placed Elsewhere by Company
+None
+REINSURANCE LIMIT(S) BASIS OF ACCEPTANCE: Contributing Excess
+HEREON: $2,500,000 Each Occurrence/$2,500,000 Aggregate
+(Being 50.0000%) Part of $5,000,000 Each
+Occurrence/$5,000,000 Aggregate Excess Any/All
+Underlying Insurance and/or Self-Insured
+Retention (SIR)
+REINSURANCE PREMIUM: $112,500 Gross less Ceding
+- Commission = $78,750 Net
+-
+- $225,000 Gross Layer Premium
+CEDING COMMISSION: 30.00%
+ORIGINAL CANCELLATION 90 days
+CLAUSE:
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
+Additional Reinsurance Conditions.
+COMPANY POLICY FORM: OCCURRENCE FORM
+Loss Adjustment Expense: Outside
+EXPOSURE BASE: Start Date End Date Sales Payroll
+Projected: 05/25/2024 05/25/2025 45,000,000 3,236,053
+Historical: 05/25/2023 05/25/2024 45,000,000 2,732,100
+05/25/2022 05/25/2023 34,000,000 1,600,000
+05/25/2021 05/25/2022 32,000,000 1,600,000
+G06806.245053.01 UMBRELLA LIABILITY Page 1 of 3A/C: Florida Lemark Corporation UMBRELLA LIABILITY
+R/I: HDI Global Insurance Company April 16, 2024
+FLEET: Type Units Radius
+Private Passenger . 8 Local
+Light . 23 Local
+Medium . 1 Local
+TOTAL: 32
+Garaging: Florida
+HNOA: Incidental
+Trailers: 7
+Fleet Summary:
+-PPT (Liberty Mutual): 4
+-PPT (Arch): 4
+-Light Truck (Arch): 23
+-Medium Truck (Liberty Mutual): 1
+OTHER EXPOSURES: Subcosts:
+- -2024: $33,750,000
+- -2023: $29,250,000
+-
+Payroll: Executive Supervisor
+UNDERLYING SCHEDULE:
+Coverage Limit Company Premium Policy Term
+CGL 1M/2M/2M Liberty Mutual $523,024 05/25/2024-2025
+CAL #1-Owned 1M CSL Liberty Mutual $48,532 05/25/2024-2025
+CAL #2-Leased 1M CSL Arch $133,719 11/23/2023-2024
+LOSSES: Valuation Date: 03/14/2024 Last 7 years
+Gen'l Liab Auto Liab
+TOTAL TOTAL
+YEAR INCURRED NUMBER INCURRED NUMBER
+05/25/2023-05/25/2024 $3 1 $0 0
+05/25/2022-05/25/2023 $0 0 $0 0
+05/25/2021-05/25/2022 $0 1 $0 0
+05/25/2020-05/25/2021 $0 1 $0 0
+05/25/2019-05/25/2020 $1,037,502 2 $0 0
+05/25/2018-05/25/2019 $0 2 $0 0
+05/25/2017-05/25/2018 $20,000 1 $0 0
+LARGE LOSSES: Valuation Date: 03/14/2024AExcess $1,000,000 Last 7 years
+Total Line
+DOL Incurred O/C Paid Expense Type Description
+05/25/2019 1,020,000 O 506,596 513,404 UL Construction Defect
+A
+Large Loss Details:
+•Claimant: Warren Henry Autos
+•GC: Pirtle Construction
+•Status: Ongoing discovery and mediation. There is a claim for deficient
+caulking installation. This work was performed by affiliate company MAR
+Contracting, Inc. under contract with Coreslab Structures, Inc.
+• MAR Contracting is insured under the same Liberty Mutual GL Policy as
+Florida Lemark; Mar is no longer actively pursuing work.
+• Neither Coreslab Structures or MAR Contracting were made aware or notified
+of deficiencies prior to the complaint being filed.
+• It was also disclosed at mediation that Warren Henry representative hired a
+subcontractor that removed and replaced the caulking.
+G06806.245053.01 UMBRELLA LIABILITY Page 2 of 3A/C: Florida Lemark Corporation UMBRELLA LIABILITY
+R/I: HDI Global Insurance Company April 16, 2024
+LOSSES: (continued)
+• There are no inspection reports nor photographs to substantiate deficiency
+claims.
+• Pirtle is seeking defense indemnity.
+G06806.245053.01 UMBRELLA LIABILITY Page 3 of 3

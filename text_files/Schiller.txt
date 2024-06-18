@@ -1,0 +1,67 @@
+A/C: Schiller Roofing, Inc; EXCESS LIABILITY
+R/I: Philadelphia Insurance Companies June 10, 2024
+From: Guy Moore Telephone:
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: June 28, 2024 To June 28, 2025
+REINSURED PERIOD: June 28, 2024 To June 28, 2025
+TYPE OF INSURANCE: Excess Liability
+COMPANY POLICY LIMIT(S): $2,000,000 Each Occurrence/Annual Aggregate Where
+- Applicable Excess of Underlying Insurance and/or Self
+- Insured Retention (SIR)
+COMPANY RETENTION $1,000,000 Each Occurrence/Annual Aggregate Where
+Net &/Or Treaty: Applicable (Being 50.0000%) Part of $2,000,000
+Each Occurrence/Annual Aggregate Where Applicable
+Excess Underlying Insurance and/or Self Insured
+Retention (SIR)
+OTHER FACULTATIVE: Placed Elsewhere by Company
+None
+REINSURANCE LIMIT(S) BASIS OF ACCEPTANCE: Contributing Excess
+HEREON: $1,000,000 Each Occurrence/Annual Aggregate Where
+Applicable (Being 50.0000%) Part of $2,000,000
+Each Occurrence/Annual Aggregate Where Applicable
+Excess Underlying Insurance and/or Self Insured
+Retention (SIR)
+CEDING COMMISSION: 27.50%
+ORIGINAL CANCELLATION 90 days
+CLAUSE:
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
+Additional Reinsurance Conditions.
+COMPANY POLICY FORM: OCCURRENCE FORM
+Loss Adjustment Expense: Outside
+EXPOSURE BASE: Start Date End Date Sales Payroll
+Projected: 06/28/2024 06/28/2025 3,550,000 900,000
+Historical: 06/28/2023 06/28/2024 3,200,000 800,000
+06/28/2022 06/28/2023 2,936,000 737,000
+06/28/2021 06/28/2022 2,563,000 661,000
+06/28/2020 06/28/2021 2,113,000 571,000
+OTHER EXPOSURES: Sub Costs:
+- 2024 - $248,000
+- 2023 - $250,000
+- 2022 - $243,000
+- 2021 - $191,000
+- 2020 - $176,500
+-
+P10508.245017.01 EXCESS LIABILITY Page 1 of 2A/C: Schiller Roofing, Inc; EXCESS LIABILITY
+R/I: Philadelphia Insurance Companies June 10, 2024
+OTHER EXPOSURES: (continued)
+Residential - 55%
+Commercial - 45%
+Pitched - 60%
+Low Slope - 25%
+Flat - 15%
+UNDERLYING SCHEDULE:
+Coverage Limit Company Premium Policy Term
+GL $1M/$2M/$2M Crum and Forster $49,390 06/28/2024-2025
+EBL $1M` Crum and Forster Included 06/28/2024-2025
+LOSSES: Valuation Date: 06/04/2024 Last 5 years
+Gen'l Liab
+TOTAL
+YEAR INCURRED NUMBER
+06/28/2023-06/28/2024 $10,000 1
+06/28/2022-06/28/2023 $0 0
+06/28/2021-06/28/2022 $22,376 2
+06/28/2020-06/28/2021 $5,715 1
+06/28/2019-06/28/2020 $0 0
+LARGE LOSSES: Valuation Date: 06/04/2024A None excess of $100,000 Last 5 years
+P10508.245017.01 EXCESS LIABILITY Page 2 of 2

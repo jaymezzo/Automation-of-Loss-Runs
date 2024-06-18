@@ -1,0 +1,146 @@
+A/C: Danaher Corporation AUTOMOBILE LIABILITY
+R/I: AIG Risk Management Division June 3, 2024
+From: George Caricich Telephone: (917) 937-3044
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: July 1, 2024 To July 1, 2025
+REINSURED PERIOD: July 1, 2024 To July 1, 2025
+TYPE OF INSURANCE: Commercial Automobile Liability
+PROGRAM TYPE: Deductible
+COMPANY POLICY LIMIT(S): $ 10,000,000 CSL Each Accident
+- Inclusive of $5,000,000 Deductible
+COMPANY RETENTION A) $5,000,000 CSL Each Accident Inclusive of a
+Net &/Or Treaty: $5,000,000 Deductible
+- B) $2,000,000 CSL Each Accident (Being 40.0000%)
+Part of $5,000,000 CSL Each Accident Excess
+$5,000,000 CSL Each Accident
+OTHER FACULTATIVE: Placed Elsewhere by Company
+None
+REINSURANCE LIMIT(S) B) BASIS OF ACCEPTANCE: Excess of Deductible
+HEREON: $3,000,000 CSL Each Accident (Being 60.0000%)
+Part of $5,000,000 CSL Each Accident Excess
+$5,000,000 CSL Each Accident
+REINSURANCE PREMIUM: B) Please Quote best net price.
+CEDING COMMISSION: 15.00%
+ORIGINAL CANCELLATION 90 days
+CLAUSE:
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
+Additional Reinsurance Conditions.
+COMPANY POLICY TERMS/EXTENSIONS/EXCLUSIONS:
+Follow Form: As Per Company Policy (ies)
+Extensions: UM/UIM = Statutory
+LOSS ADJUSTMENT EXPENSE: Erodes Retention/ Does Not Erode
+- Limit of Liability
+EXPOSURE BASE: Start Date End Date Units
+Historical: 07/01/2024 07/01/2025 3,104
+07/01/2023 07/01/2024 3,863
+07/01/2022 07/01/2023 3,745
+07/01/2021 07/01/2022 3,509
+07/01/2020 07/01/2021 3,553
+07/01/2019 07/01/2020 3,671
+A07211.245017.01 AUTOMOBILE LIABILITY Page 1 of 3A/C: Danaher Corporation AUTOMOBILE LIABILITY
+R/I: AIG Risk Management Division June 3, 2024
+EXPOSURE BASE:(continued) Start Date End Date Units
+07/01/2018 07/01/2019 3,322
+07/01/2017 07/01/2018 3,194
+07/01/2016 07/01/2017 2,914
+07/01/2015 07/01/2016 2,956
+07/01/2014 07/01/2015 2,850
+FLEET: Projected: Type Units
+Heavy . 6
+Light . 31
+Medium . 1
+Private Passenger . 3,066
+TOTAL: 3,104
+Garage Location:
+AK 5
+AL 26
+AR 11
+AZ 49
+CA 466
+CO 63
+CT 42
+DC 5
+DE 21
+FL 153
+GA 97
+HI 3
+IA 15
+ID 5
+IL 141
+IN 67
+KS 19
+KY 28
+LA 29
+MA 192
+MD 95
+ME 10
+MI 88
+MN 66
+MO 59
+MS 9
+MT 4
+NC 139
+ND 5
+NE 8
+NH 30
+NJ 137
+NM 4
+NV 18
+NY 135
+OH 97
+OK 16
+OR 28
+PA 191
+RI 20
+SC 44
+SD 8
+TN 53
+TX 214
+UT 23
+VA 47
+A07211.245017.01 AUTOMOBILE LIABILITY Page 2 of 3A/C: Danaher Corporation AUTOMOBILE LIABILITY
+R/I: AIG Risk Management Division June 3, 2024
+FLEET: (continued)
+VT 2
+WA 70
+WI 37
+WV 9
+WY 1
+Grand Total: 3,104
+3rd party Hauling and Hired & Non-Owned
+information to follow.
+LOSSES: Valuation Date: 03/31/2024 Last 10 years
+Auto Liab dum Total dum
+Year # Claims Incurred Paid
+07/01/2023-07/01/2024 113 $313,116 $118,168
+07/01/2022-07/01/2023 163 $690,121 $491,851
+07/01/2021-07/01/2022 140 $7,457,635 $1,791,420
+07/01/2020-07/01/2021 132 $720,842 $664,279
+07/01/2019-07/01/2020 169 $3,687,586 $3,687,586
+07/01/2018-07/01/2019 213 $14,145,230 $13,121,998
+07/01/2017-07/01/2018 204 $3,077,270 $3,066,264
+07/01/2016-07/01/2017 216 $7,305,402 $7,305,402
+07/01/2015-07/01/2016 176 $698,348 $698,348
+07/01/2014-07/01/2015 152 $1,893,563 $1,893,563
+LARGE LOSSES: Valuation Date: 03/31/2024AExcess $250,000 Last 10 years
+Total Line
+DOL Incurred O/C Paid Type Description
+09/15/2014 1,198,850 C 1,198,850 AL Rear-Ended Ov
+06/06/2017 6,477,117 C 6,477,117 AL Sideswiped By Ov
+09/09/2017 1,044,088 C 1,044,088 AL Hit On Side By Ov
+11/10/2017 251,976 C 251,976 AL Failure To Yield
+Rt-Of-Way
+01/01/2018 318,978 C 318,978 AL Rear-Ended Ov
+12/06/2018 11,217,227 C 11,217,227 AL Failed To Maintain Lane
+04/26/2019 1,105,000 O 106,949 AL Rear-Ended By Ov
+05/13/2019 663,202 C 663,202 AL Miscellaneous Collision
+07/25/2019 2,133,840 C 2,133,840 AL Rear-Ended By Ov
+10/08/2019 345,778 C 345,778 AL Rear-Ended Ov
+11/22/2019 280,170 C 280,170 AL Rear-Ended Ov
+08/12/2021 786,597 C 786,597 AL Rear-Ended By Ov
+02/09/2022 5,559,925 O 59,657 AL Intersection Accident
+(At-Faul
+03/28/2022 450,011 C 450,011 AL Failure To Yield
+Rt-Of-Way
+A07211.245017.01 AUTOMOBILE LIABILITY Page 3 of 3

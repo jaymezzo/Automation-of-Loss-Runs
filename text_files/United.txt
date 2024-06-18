@@ -1,0 +1,77 @@
+A/C: United States Development, Ltd; EXCESS LIABILITY
+R/I: HDI Global Insurance Company May 4, 2024
+From: Guy Moore Telephone:
+GC RENEWAL: No
+CLIENT RENEWAL: No
+POLICY PERIOD: May 22, 2024 To May 22, 2025
+REINSURED PERIOD: May 22, 2024 To May 22, 2025
+TYPE OF INSURANCE: Excess Liability
+COMPANY POLICY LIMIT(S): $2,000,000 Each Occurrence/Annual Aggregate Where
+- Applicable Excess of Underlying Insurance and/or Self
+- Insured Retention (SIR)
+TOTAL POLICY PREMIUM: $165,000 Gross
+COMPANY RETENTION $1,000,000 Each Occurrence/Annual Aggregate Where
+Net &/Or Treaty: Applicable (Being 50.0000%) Part of $2,000,000
+Each Occurrence/Annual Aggregate Where Applicable
+Excess Underlying Insurance and/or Self Insured
+Retention (SIR)
+OTHER FACULTATIVE: Placed Elsewhere by Company
+None
+REINSURANCE LIMIT(S) BASIS OF ACCEPTANCE: Contributing Excess
+HEREON: $1,000,000 Each Occurrence/Annual Aggregate Where
+Applicable (Being 50.0000%) Part of $2,000,000
+Each Occurrence/Annual Aggregate Where Applicable
+Excess Underlying Insurance and/or Self Insured
+Retention (SIR)
+REINSURANCE PREMIUM: $82,500 Gross less Ceding
+- Commission = $57,750 Net Annual flat
+-
+- $165,000 Gross Layer Premium
+CEDING COMMISSION: 30.00%
+ORIGINAL CANCELLATION 90 days
+CLAUSE:
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
+Additional Reinsurance Conditions.
+COMPANY POLICY FORM: OCCURRENCE FORM
+Loss Adjustment Expense: Outside
+EXPOSURE BASE: Start Date End Date Square Footage
+Projected: 05/22/2024 05/22/2025 498,482
+OTHER EXPOSURES: Square Footage Break Out:
+- 498,482 LRO sqft / 975,721 Parking sqft
+-
+Please see attached SOV.
+G06806.245071.01 EXCESS LIABILITY Page 1 of 2A/C: United States Development, Ltd; EXCESS LIABILITY
+R/I: HDI Global Insurance Company May 4, 2024
+UNDERLYING SCHEDULE:
+Coverage Limit Company Premium Policy Term
+GL 1/2/2 w/ $25k ded Lexington $429,250 05/22/2024-2025
+LOSSES: Valuation Date: 04/24/2024 Last 7 years
+Gen'l Liab
+TOTAL
+YEAR INCURRED NUMBER
+05/22/2023-05/22/2024 $0 0
+05/22/2022-05/22/2023 $18,759 2
+05/22/2021-05/22/2022 $77,689 2
+05/22/2020-05/22/2021 $390,859 3
+05/22/2019-05/22/2020 $1,042,052 1
+05/22/2018-05/22/2019 $120,485 4
+05/22/2017-05/22/2018 $636,907 2
+LARGE LOSSES: Valuation Date: 04/24/2024AExcess $100,000 Last 7 years
+Total Line
+DOL Incurred O/C Paid Reserve Type Description
+11/18/2020 375,859 C 375,859 0 GL Clmt trippedand fell on a
+makeshift rampriddled
+with protruding screws in
+front of the Lotus Flowe
+05/24/2019 1,042,052 C 1,042,052 0 GL Claimant shot and killed
+in front of Insured's
+premises
+09/08/2017 490,746 C 490,746 0 GL Claimant injured in
+parking lot of
+supermarket
+02/22/2022 141,161 C 141,161 0 GL Claimant slipped and fell
+in bathroom.
+The losses are uncapped and there was no loss paid by the excess layer on the
+5/24/2019 claim. The hookah bar the claim happened in front of is also no
+longer in the shopping center.
+G06806.245071.01 EXCESS LIABILITY Page 2 of 2

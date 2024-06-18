@@ -1,0 +1,104 @@
+A/C: Fernlea Industries, Inc. UMBRELLA LIABILITY
+R/I: Upland Capital Group June 4, 2024
+From: Brian Kohout Telephone: (630) 209-7195
+GC RENEWAL: No
+CLIENT RENEWAL: Yes
+POLICY PERIOD: June 1, 2024 To June 1, 2025
+REINSURED PERIOD: June 1, 2024 To June 1, 2025
+TYPE OF INSURANCE: Excess Liability
+COMPANY POLICY LIMIT(S): $5,000,000 Each Occurrence / $5,000,000 Aggregate Excess of
+- Any/All Underlying Insurance and/or Self-Insured Retention
+- (SIR)
+TOTAL POLICY PREMIUM: $135,000 Gross
+COMPANY RETENTION A) $100,000 Each Occurrence/$100,000 Aggregate
+Net &/Or Treaty: (Being 10.0000%) Part of $1,000,000 Each
+Occurrence/$1,000,000 Aggregate Excess Any/All
+- Underlying Insurance and/or Self-Insured
+- Retention (SIR)
+-
+B) $4,000,000 Each Occurrence/$4,000,000 Aggregate
+Excess $1,000,000 Each Occurrence/$1,000,000
+Aggregate Excess Any/All Underlying Insurance
+and/or Self-Insured Retention (SIR)
+OTHER FACULTATIVE: Placed Elsewhere by Company
+None
+REINSURANCE LIMIT(S) A) BASIS OF ACCEPTANCE: Contributing Excess
+HEREON: $900,000 Each Occurrence/$900,000 Aggregate
+(Being 90.0000%) Part of $1,000,000 Each
+Occurrence/$1,000,000 Aggregate Excess Any/All
+Underlying Insurance and/or Self-Insured
+Retention (SIR)
+REINSURANCE PREMIUM: A) $45,000 Gross less Ceding
+- Commission = $32,625 Net Annual flat
+-
+- $50,000 Gross Layer Premium
+CEDING COMMISSION: 27.50%
+ORIGINAL CANCELLATION 90 days
+CLAUSE:
+REINSURANCE CONDITIONS: Follow Form Company Policy except as stated in
+Additional Reinsurance Conditions.
+COMPANY POLICY FORM: OCCURRENCE FORM
+Loss Adjustment Expense: Outside
+U12804.245012.01 UMBRELLA LIABILITY Page 1 of 3A/C: Fernlea Industries, Inc. UMBRELLA LIABILITY
+R/I: Upland Capital Group June 4, 2024
+EXPOSURE BASE: Start Date End Date Sales
+Projected: 06/01/2024 06/01/2025 99,947,816
+Historical: 06/01/2023 06/01/2024 78,027,122
+06/01/2022 06/01/2023 75,873,598
+FLEET: Type Units Radius
+Light . 4 Local/Inter
+Trucks - Heavy . 2 Local/Inter
+TOTAL: 6
+Garaging: Florida
+Trailer: 1
+UNDERLYING SCHEDULE:
+Coverage Limit Company Premium Policy Term
+CGL 1M/3M/2M/1M Florist Mutual* $170,474 06/01/2024-2025
+AL 1M CSL Progressive $167,360 06/01/2024-2025
+EL 1M/1M/1M Florist Mutual* Included 06/01/2024-2025
+*Florist Mutual is on Sentry Paper
+GL forms of note: Exclusions: Cyber, Professional, CD, A&B, Fungi/Bacteria,
+Construction Defect(?), Misdelivery, EL, Oil or Gas producing ops,
+Other: Per project agg $5m, Warranty of Sub limits (min 1/2/2/1), WOS. PNC
+wording.
+Upland Policy Includes: Service of Suit, Cap On Losses From Certified Acts
+Of Terrorism, Unimpaired Aggregate Limit
+Our Exclusions:, Access or Disclosure of Confidential or Personal
+Information, Lead, Asbestos, Biometric Info, CCC, CD, Cross Suits, Cyber,
+ERP, ERISA, EIFS , Fungi/Bacteria, MCS-90, Professional Services, Silica,
+Unmanned Aircraft, Wrongful Delivery of Liquid Products, Employee Benefit
+Plan, Nuclear, Total Pollution with Hostile Fire, TRIA, Coverage Territory
+Limitation.
+LOSSES: Valuation Date: 05/07/2024
+Gen'l Liab Auto Liab Excess Auto Liab
+TOTAL TOTAL TOTAL
+YEAR INCURRED NUMBER INCURRED NUMBER INCURRED NUMBER
+06/01/2023-06/01/2024 $5 2 0 $0 0
+06/01/2022-06/01/2023 $44,574 2 0 $0 0
+06/01/2021-06/01/2022 $2,245 4 $21,845 10 $0 0
+06/01/2020-06/01/2021 $3,298 7 $1,094,083 4 $1,762,338 1
+06/01/2019-06/01/2020 $4,826 4 $2,681 5 $0 0
+06/01/2018-06/01/2019 $106,121 7 $26,007 5 $0 0
+LARGE LOSSES: Valuation Date: 05/07/2024A
+Total Line
+DOL Incurred O/C Paid Reserve Type Description
+03/29/2021 2,846,123 C 2,846,123 0 UL Insured vehicle backing
+up to claimant's
+receiving dock doors and
+insured backed too far
+and struck the claimant's
+building. Bricks
+shattered and came into
+the building and the roll
+up door frame is damaged.
+U12804.245012.01 UMBRELLA LIABILITY Page 2 of 3A/C: Fernlea Industries, Inc. UMBRELLA LIABILITY
+R/I: Upland Capital Group June 4, 2024
+LARGE LOSSES (continued)
+Total Line
+DOL Incurred O/C Paid Reserve Type Description
+Over 50% at fault.
+ADDITIONAL INFORMATION:
+Sales by State:
+-FL: 95,623,901
+-CA: 4,323,915
+U12804.245012.01 UMBRELLA LIABILITY Page 3 of 3
