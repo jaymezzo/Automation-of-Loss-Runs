@@ -5,8 +5,8 @@ from tkinter import messagebox
 import ttkbootstrap as tb
 from ttkbootstrap.constants import *
 from tkinterdnd2 import DND_FILES, TkinterDnD
-from script_1 import *
-# import threading 
+from backend import *
+import threading 
 
 
 def load_new_content(path):
@@ -60,14 +60,34 @@ class StartPage(tk.Frame):
         drop_area.dnd_bind('<<Drop>>', self.on_drop)
 
     def on_drop(self, event):
-        paths = event.data.split()
-        valid_files = [path for path in paths if os.path.isfile(path)]
+        # paths = event.data.split()
+        # print(f'paths is {paths}')
+
         
-        if valid_files:
-            self.controller.show_frame("ProcessPage", valid_files[0])
+        paths = event.data.splitlines()
+        print("Dropped paths:", paths)  # Debugging print
+
+        pdf_files = [path for path in paths if path.lower().endswith('.pdf')]
+
+        for path in paths:
+            path = path.strip("{}")  # Remove any surrounding braces
+        if os.path.isfile(path):
+            print(f"{path} is a valid file.")  # Debugging print
+            if path.lower().endswith('.pdf'):
+                print(f"{path} is a PDF file.")  # Debugging print
+                pdf_files.append(path)
+            else:
+                print(f"{path} is not a PDF file.")  # Debugging print
         else:
-            messagebox.showerror("Error", "Please drop a valid file, not a directory.")
+            print(f"{path} is not a valid file.")  # Debugging print
+        
+        # TODO: if it's a valid file and the file extension is .pdf then it is valid
+        if not pdf_files:
+            messagebox.showerror("Error", "Please drop a valid pdf file.")
             self.controller.show_frame("WarningPage")
+        else:
+            self.controller.show_frame("ProcessPage", pdf_files[0])
+            
 
 # Process page will be shown when the file is valid
 class ProcessPage(tk.Frame):
@@ -92,10 +112,11 @@ class WarningPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        label = tk.Label(self, text="Warning: Invalid Path", font=controller.title_font)
+        label = tk.Label(self, text="Warning: Invalid File Type", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
         button = tk.Button(self, text="Try Again", command=lambda: controller.show_frame("StartPage"))
         button.pack()
+
 
 class CompletePage(tk.Frame):
     def __init__(self, parent, controller):
