@@ -409,11 +409,20 @@ def transform_df(df, file_name):
         fn_list.append(file_name + " (Professional Liab)")
     return df_list, fn_list
 
+def get_eval_date(text):
+    val_date = ""
+    eval_year_pattern = "\d{2}/\d{2}/\d{4}"
+    val_line = text.split("\n")[0]
+    for item in val_line.split(" "):
+        if re.match(eval_year_pattern, item):
+            val_date = item
+    return val_date
 
 def convert_to_df_multiclass(pdf, file_name):
     losses = PDFtoText(pdf)
+    eval_date = get_eval_date(losses)
     matches = match_start(losses)
     df = ExportDf(losses, matches)
     print(df)
     df_list, fn_list = transform_df(df, file_name)
-    return df_list, fn_list
+    return df_list, fn_list, eval_date

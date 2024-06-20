@@ -202,7 +202,7 @@ def import_to_excel(df, file_name):
     # Save completed Excel Rater
     print("Saving new file...")
     wb.save(filename=file_name + ".xlsx")
-    print("File saved!")
+    print(file_name+".xlsx saved!")
 
 
 # pdf = (
@@ -220,6 +220,13 @@ def import_to_excel(df, file_name):
 # else:
 #     df = extract_table_from_text(pdf_text)
 #     import_to_excel(df, file_name)
+pdf = "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
+
+def add_eval_date(eval_date, df_list):
+    for df in df_list:
+        eval_list = [eval_date] * df.shape[0]
+        df["eval_date"] = eval_list
+
 
 def start_backend(pdf):
     '''
@@ -231,13 +238,17 @@ def start_backend(pdf):
     IS_MULTICLASS = num_classes > 1
 
     if IS_MULTICLASS:
-        df_list, fn_list = convert_to_df_multiclass(pdf, file_name)
+        df_list, fn_list, eval_date = convert_to_df_multiclass(pdf, file_name)
+        add_eval_date(eval_date, df_list)
         for df, fn in zip(df_list, fn_list):
+            print(df)
             import_to_excel(df, fn)
+
     else:
         df = extract_table_from_text(pdf_text)
         import_to_excel(df, file_name)
+        os.system(f"start EXCEL.EXE {file_name}.xlsx")
 
-    print(f"File name is {file_name}")
+    
 
-    os.system(f"start EXCEL.EXE {file_name}.xlsx")
+start_backend(pdf)

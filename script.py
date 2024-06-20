@@ -205,7 +205,7 @@ def import_to_excel(df, file_name):
 
 
 pdf = (
-    "submission_pdfs/Olympic Steel_ Inc__Submission_AL_2024-04-03_211242_95.pdf"
+    "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
 )
 pdf_text = extract_text_from_pdf(pdf)
 file_name = pdf.split("/")[-1].split(" ")[0].strip("_") + " - Loss"
