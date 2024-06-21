@@ -58,8 +58,8 @@ def PDFtoText(path_to_pdf: str):
         else ""
     )
 
-    print("LOSSES:\n", losses)
-    print("\nLARGE LOSSES:\n", large_losses)
+    # print("LOSSES:\n", losses)
+    # print("\nLARGE LOSSES:\n", large_losses)
 
     return losses
 
@@ -392,6 +392,7 @@ def transform_df(df, file_name):
         AUTO["incurred"] = df["Auto Liab Total Incurred"]
         AUTO["number"] = df["Auto Liab Number"]
         df_list.append(AUTO)
+        print("File name from transformdf:", file_name)
         fn_list.append(file_name + " (Auto Liab)")
     if "Gen'l Liab Total Incurred" in df.columns:
         GEN["start_date"] = df["Effective Date"]
@@ -423,6 +424,6 @@ def convert_to_df_multiclass(pdf, file_name):
     eval_date = get_eval_date(losses)
     matches = match_start(losses)
     df = ExportDf(losses, matches)
-    print(df)
+    print("Filename from convert to df mul:", file_name)
     df_list, fn_list = transform_df(df, file_name)
     return df_list, fn_list, eval_date

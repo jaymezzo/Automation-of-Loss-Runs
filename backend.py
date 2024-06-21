@@ -220,7 +220,7 @@ def import_to_excel(df, file_name):
 # else:
 #     df = extract_table_from_text(pdf_text)
 #     import_to_excel(df, file_name)
-pdf = "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
+# pdf = "submission_pdfs/Florida Lemark Corporation_Submission_UMB_2024-04-16_063234_755.pdf"
 
 def add_eval_date(eval_date, df_list):
     for df in df_list:
@@ -228,21 +228,32 @@ def add_eval_date(eval_date, df_list):
         df["eval_date"] = eval_list
 
 
+
+
+import subprocess
 def start_backend(pdf):
     '''
     input: pdf(str) path to the submission pdf
     '''
     pdf_text = extract_text_from_pdf(pdf)
-    file_name = pdf.split("/")[-1].split(" ")[0].strip("_")
+    file_name = pdf.split("/")[-1].split(" ")[0].strip(" ")
+    print("Intial filename:", file_name)
     num_classes, _ = multiclass_count(pdf_text)
     IS_MULTICLASS = num_classes > 1
 
     if IS_MULTICLASS:
         df_list, fn_list, eval_date = convert_to_df_multiclass(pdf, file_name)
         add_eval_date(eval_date, df_list)
+        print("File List: ", fn_list)
         for df, fn in zip(df_list, fn_list):
-            print(df)
+            file_path = fn + ".xlsx"
             import_to_excel(df, fn)
+            if os.path.isfile(file_path):
+                # The 'start' command is for Windows. It might be different for other operating systems.
+                subprocess.run(["start", "EXCEL.EXE", file_path], shell=True)
+            else:
+                print(f"The file {file_path} does not exist.")
+            
 
     else:
         df = extract_table_from_text(pdf_text)
@@ -251,4 +262,4 @@ def start_backend(pdf):
 
     
 
-start_backend(pdf)
+# start_backend(pdf=pdf)
