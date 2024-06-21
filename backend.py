@@ -220,7 +220,7 @@ def import_to_excel(df, file_name):
 # else:
 #     df = extract_table_from_text(pdf_text)
 #     import_to_excel(df, file_name)
-pdf = "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
+# pdf = "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
 
 def add_eval_date(eval_date, df_list):
     for df in df_list:
@@ -250,5 +250,3 @@ def start_backend(pdf):
         os.system(f"start EXCEL.EXE {file_name}.xlsx")
 
     
-
-start_backend(pdf)
