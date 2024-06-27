@@ -373,19 +373,19 @@ Purpose: Each category of liability (Excess Auto, Auto, Gen'l, Professional),
 
 def transform_df(df, file_name):
     df_list = []
-    fn_list = []
-    EXCESS_AUTO = pd.DataFrame(columns=["start date", "end date"])
+    sheet_name_list = []
+    EXCESS_AUTO = pd.DataFrame(columns=["start_date", "end_date"])
     AUTO = pd.DataFrame([])
     GEN = pd.DataFrame([])
     PROF = pd.DataFrame([])
-    EXCESS_AUTO["start date"]
+    EXCESS_AUTO["start_date"]
     if "Excess Auto Liab Total Incurred" in df.columns:
         EXCESS_AUTO["start_date"] = df["Effective Date"]
         EXCESS_AUTO["end_date"] = df["Expiration Date"]
         EXCESS_AUTO["incurred"] = df["Excess Auto Liab Total Incurred"]
         EXCESS_AUTO["number"] = df["Excess Auto Liab Number"]
         df_list.append(EXCESS_AUTO)
-        fn_list.append(file_name + " (Excess Auto Liab)")
+        sheet_name_list.append("Excess Auto Liab")
     if "Auto Liab Total Incurred" in df.columns:
         AUTO["start_date"] = df["Effective Date"]
         AUTO["end_date"] = df["Expiration Date"]
@@ -393,22 +393,22 @@ def transform_df(df, file_name):
         AUTO["number"] = df["Auto Liab Number"]
         df_list.append(AUTO)
         print("File name from transformdf:", file_name)
-        fn_list.append(file_name + " (Auto Liab)")
+        sheet_name_list.append("Auto Liab")
     if "Gen'l Liab Total Incurred" in df.columns:
         GEN["start_date"] = df["Effective Date"]
         GEN["end_date"] = df["Expiration Date"]
         GEN["incurred"] = df["Gen'l Liab Total Incurred"]
         GEN["number"] = df["Gen'l Liab Number"]
         df_list.append(GEN)
-        fn_list.append(file_name + " (Gen'l Liab)")
+        sheet_name_list.append("Gen'l Liab")
     if "Professional Liab Total Incurred" in df.columns:
-        PROF["start date"] = df["Effective Date"]
-        PROF["end date"] = df["Expiration Date"]
+        PROF["start_date"] = df["Effective Date"]
+        PROF["end_date"] = df["Expiration Date"]
         PROF["incurred"] = df["Professional Liab Total Incurred"]
         PROF["number"] = df["Professional Liab Number"]
         df_list.append(PROF)
-        fn_list.append(file_name + " (Professional Liab)")
-    return df_list, fn_list
+        sheet_name_list.append("Professional Liab")
+    return df_list, sheet_name_list
 
 def get_eval_date(text):
     val_date = ""

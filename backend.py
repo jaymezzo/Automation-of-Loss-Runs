@@ -6,6 +6,9 @@ import openpyxl
 from openpyxl import load_workbook
 from mutliclass import convert_to_df_multiclass, multiclass_count
 import os
+from openpyxl.styles import Font
+from openpyxl.styles import Alignment
+from copy import copy
 
 
 # =====================
@@ -16,7 +19,7 @@ input: pdf
 output: text extracted from pdf
 """
 
-
+pdf = "submission_pdfs/United States Development_ Ltd__Submission_UMB_2024-05-04_184606_631.pdf"
 def extract_text_from_pdf(pdf):
     pdf_folder = "submission_pdfs/"
     txt_folder = "text_files/"
@@ -28,7 +31,16 @@ def extract_text_from_pdf(pdf):
             pdf_text += page.extract_text()
     return pdf_text
 
-
+def get_class(text):
+    loss_class = ""
+    for line in text.split("\n"):
+        if re.match("Auto Liab", line):
+            loss_class = "Auto Liab"
+        if re.match("Gen'l Liab", line):
+            loss_class = "Gen'l Liab"
+        if re.match("Professional Liab", line):
+            loss_class = "Prof Liab"
+    return loss_class
 # =============
 # extract table
 # =============
@@ -51,21 +63,24 @@ def extract_table_from_text(pdf_text):
     val_index = -1
 
     val_date = ""
-
+    print(text_list)
     year_pattern = "\d{2}/\d{2}/\d{4}-\d{2}/\d{2}/\d{4}"
-    eval_year_pattern = "\d{2}/\d{2}/\d{4}"
+    eval_date_pattern = "(\d{2}/\d{2}/\d{4})"
     for index, item in enumerate(text_list, start=1):
         # get index
-        if re.match("Valuation Date:", item):
-            val_index = index
+        if re.search("valuation date:", item):
+            for word in item.split(" "):
+                if re.match(eval_date_pattern,word):
+                    val_date = word[:10]
         if re.match(year_pattern, item):
             start_index = index
             break
     
     # Gets the evaluation year
-    for item in text_list[val_index - 1].split(" "):
-        if re.match(eval_year_pattern, item):
-            val_date = item
+    # for item in text_list[val_index - 1].split(" "):
+    #     print("\n", item)
+    #     if re.match(eval_year_pattern, item):
+    #         val_date = item
 
     data_temp = text_list[start_index - 1 :]
     data = []
@@ -130,27 +145,18 @@ takes a dataframe
 input: df, name of file 
 output: None
 """
+def copy_excel_sheet(file_name, sheet_name, wb):
+    # Copy data and formatting from an existing sheet
+    source_sheet_name = 'Sheet1' #default sheet name
+    source_sheet = wb[source_sheet_name]
 
-
-def import_to_excel(df, file_name):
-    # Load the original Loss Rater template
-    original_file = "Loss Experience Template.xlsx"
-    print("Loading origianl workbook...")
-    origianl_workbook = load_workbook(filename=original_file)
-    print("Workbook successfully loaded.\n")
-
-    # Save the workbook as a new rater and close orginal
-    print("Copying file...")
-    origianl_workbook.save(filename=file_name + ".xlsx")
-    print(f"File copied as {file_name}.xlsx.\n")
-    origianl_workbook.close()
-
-    # Loading Copy of the Loss Rater
-    print("Loading copied filed...")
-    wb = load_workbook(filename=file_name + ".xlsx")
-    print("Copied file loaded.\n")
-    ws = wb["Sheet1"]
-
+    print("\nCopying sheet...")
+    target = wb.copy_worksheet(source_sheet)
+    target.title = sheet_name
+    print("Sheet copied: "+ sheet_name)
+    wb.save(file_name)
+    
+def inject_data(ws, df):
     # target cells
     START_DATE_TARGET = "C9"
     END_DATE_TARGET = "D9"
@@ -199,6 +205,37 @@ def import_to_excel(df, file_name):
             row=ws[PAID_LOSSES_TARGET].row + 1, column=ws[PAID_LOSSES_TARGET].column
         ).coordinate
 
+def import_to_excel(df, sheet_name,file_name, multiclass, sheet_name_list, df_list):
+    # Load the original Loss Rater template
+    original_file = "Loss Experience Template.xlsx"
+    print("Loading origianl workbook...")
+    origianl_workbook = load_workbook(filename=original_file)
+    print("Workbook successfully loaded.\n")
+
+    # Save the workbook as a new rater and close orginal
+    print("Copying file...")
+    origianl_workbook.save(filename=file_name + ".xlsx")
+    print(f"File copied as {file_name}.xlsx.\n")
+    origianl_workbook.close()
+
+    # Loading Copy of the Loss Rater
+    print("Loading copied filed...")
+    wb = load_workbook(filename=file_name + ".xlsx")
+    print("Copied file loaded.\n")
+
+    if multiclass:
+        for sn, df in zip(sheet_name_list, df_list):
+            copy_excel_sheet(file_name, sn, wb)
+            ws = wb[sn]
+            inject_data(ws, df)
+            print(df)
+        if 'Sheet1' in wb.sheetnames:
+            del wb['Sheet1']
+    else:
+        ws = wb["Sheet1"]
+        inject_data(ws, df)
+        ws.title = sheet_name
+
     # Save completed Excel Rater
     print("Saving new file...")
     wb.save(filename=file_name + ".xlsx")
@@ -220,7 +257,7 @@ def import_to_excel(df, file_name):
 # else:
 #     df = extract_table_from_text(pdf_text)
 #     import_to_excel(df, file_name)
-# pdf = "submission_pdfs/Florida Lemark Corporation_Submission_UMB_2024-04-16_063234_755.pdf"
+pdf = "submission_pdfs/Fernlea Industries_ Inc__Submission_UMB_2024-06-04_012751_392.pdf"
 
 def add_eval_date(eval_date, df_list):
     for df in df_list:
@@ -239,27 +276,59 @@ def start_backend(pdf):
     file_name = pdf.split("/")[-1].split(" ")[0].strip(" ")
     print("Intial filename:", file_name)
     num_classes, _ = multiclass_count(pdf_text)
+    sheet_name = get_class(pdf_text)
     IS_MULTICLASS = num_classes > 1
 
     if IS_MULTICLASS:
-        df_list, fn_list, eval_date = convert_to_df_multiclass(pdf, file_name)
+        df_list, sheet_name_list, eval_date = convert_to_df_multiclass(pdf, file_name)
         add_eval_date(eval_date, df_list)
-        print("File List: ", fn_list)
-        for df, fn in zip(df_list, fn_list):
-            file_path = fn + ".xlsx"
-            import_to_excel(df, fn)
-            if os.path.isfile(file_path):
-                # The 'start' command is for Windows. It might be different for other operating systems.
-                subprocess.run(["start", "EXCEL.EXE", file_path], shell=True)
-            else:
-                print(f"The file {file_path} does not exist.")
+        print("File List: ", sheet_name_list)
+        
+        file_path = file_name + ".xlsx"
+        import_to_excel(None, None, file_name, True, sheet_name_list, df_list)
+        if os.path.isfile(file_path):
+            # The 'start' command is for Windows. It might be different for other operating systems.
+            subprocess.run(["start", "EXCEL.EXE", file_path], shell=True)
+        else:
+            print(f"The file {file_path} does not exist.")
             
 
     else:
         df = extract_table_from_text(pdf_text)
-        import_to_excel(df, file_name)
+        import_to_excel(df, sheet_name, file_name, False, None, None)
         os.system(f"start EXCEL.EXE {file_name}.xlsx")
 
-    
 
-# start_backend(pdf=pdf)
+import PyPDF2
+def large_losses(pdf):
+    pdf_text = extract_text_from_pdf(pdf)
+    print(pdf_text)
+    text_list = pdf_text.split("\n")
+    descript_index = -1
+    ll_index = -1
+    data = [] #2d matrix
+    row_pattern = re.compile("\d{2}/\d{2}/\d{2}(\d{2})? \d{1,3}(,\d{3})* [A-Z]")
+    columns = []
+    for index, line in enumerate(text_list):
+        if re.match("DOL", line):
+            ll_index = index
+
+            columns = line.split(" ")
+            descript_index = len(columns) - 1
+    if re.search(row_pattern, "11/25/2020 117,500 o"):
+        print("Success")
+    large_losses_list = text_list[ll_index:]
+    for index, line in enumerate(large_losses_list):
+        if re.match(row_pattern, line):
+            temp_descript = []
+            row = line.split(" ")
+            print(row[descript_index:])
+            temp_descript += row[descript_index:] 
+            for line in large_losses_list[index+1:]:
+                if re.match(row_pattern, line):
+                    break
+                else:
+                    temp_descript += line.split(" ")
+            print(temp_descript)
+
+start_backend(pdf)
